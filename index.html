@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="flavicon.png" type="image/x-icon" />
+    <title>Campaign | Zoo Negara</title>
+  </head>
+  <body onload="">
+    <div class="main-container">
+      <div class="inner-container container-1">
+        <h1>Zoo Negara's 65th Anniversary</h1>
+        <h2>Check out our exciting nature-based activities!</h2>
+        <div>
+          <ul>
+            <li>Nature Walk - The Paradise Experience</li>
+            <li>Wildlife Encounter - The Malayan Tiger</li>
+            <li>Borneo Rhino - Habitat Watch</li>
+            <li>Midnight Safari</li>
+          </ul>
+          <p>
+            Note: Tickets are made available to the public with a discount offer
+            of RM 250 to the early bird patrons for the all-inclusive
+            nature-recreation package that comes with accommodation.
+          </p>
+        </div>
+        <h2>Zoo entrance</h2>
+        <img src="zoo.jpg" alt="Zoo Entrance" />
+      </div>
+      <div class="inner-container container-2">
+        <!-- <img src="tiger.jpg" alt="Malayan Tiger"> -->
+      </div>
+      <div class="inner-container container-3">
+        <h1>Help Us Do a Survey</h1>
+        <form>
+          <label for="fullname-field" class="form-label">Full Name</label>
+          <input
+            type="text"
+            id="fullname-field"
+            class="form-input"
+            placeholder="Enter your full name"
+          /><br />
+          <label for="email-field" class="form-label">Email Address</label>
+          <input
+            type="email"
+            id="email-field"
+            class="form-input"
+            placeholder="Enter your email"
+          /><br />
+          <label class="form-label"
+            >Pick more one or more activities that you may be interested.</label
+          >
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="option1"
+              name="activity"
+              value="Nature Walk"
+            />
+            <label for="option1">Nature Walk - The Paradise Experience</label
+            ><br />
+            <input
+              type="checkbox"
+              id="option2"
+              name="activity"
+              value="Wildlife Encounter"
+            />
+            <label for="option2">Wildlife Encounter - The Malayan Tiger</label
+            ><br />
+            <input
+              type="checkbox"
+              id="option3"
+              name="activity"
+              value="Borneo Rhino"
+            />
+            <label for="option3">Borneo Rhino - Habitat Watch</label><br />
+            <input
+              type="checkbox"
+              id="option4"
+              name="activity"
+              value="Midnight Safari"
+            />
+            <label for="option4">Midnight Safari</label><br />
+          </div>
+          <button id="send-btn">SEND</button>
+        </form>
+        <p>
+          For more information, visit
+          <a href="https://www.zoonegaramalaysia.my/" target="_blank"
+            >Zoo Negara</a
+          >
+          website.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p><strong>Zoo Negara Malaysia</strong></p>
+      <p>Copyright 2021</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
